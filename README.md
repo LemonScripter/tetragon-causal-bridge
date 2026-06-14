@@ -19,9 +19,12 @@ The **DCC Causal Bridge** transforms Tetragon from a reactive observer into a **
 2. **Atomic Consumption:** Prevents token reuse through atomic kernel-space flags.
 3. **Intent Pinning:** Verifies that the specific syscall (e.g., `connect`) matches the authorized intent ID.
 
-### Scientific Foundation
+### Scientific & Technical Foundation
 
-This implementation is based on the [BioOS Causal Constitution (DOI: 10.5281/zenodo.20384700)](https://doi.org/10.5281/zenodo.20384700).
+This implementation is based on the following formal specifications and research:
+
+- **Research Paper:** [The Causal Operating System: Digital Causal Closure for Autonomous Systems](https://doi.org/10.5281/zenodo.20384700)
+- **Formal Specification:** [BioOS Causal Constitution (PDF)](https://bioos.metaspace.bio/bioos_causal_constitution_en.pdf)
 
 ---
 *Verified by MetaSpace BioOS Team | [metaspace.bio](https://metaspace.bio)*
